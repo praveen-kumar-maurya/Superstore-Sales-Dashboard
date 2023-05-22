@@ -19,32 +19,32 @@ Business objective for the superstore sales dashboard is to increase sales and p
 
 Following are the insights obtained from the Superstore sales dashboard analysis:-
 
-1.Sales peak in March, September, and November. March sales are driven by tax season purchases of Office Supplies and Technology. September sales increase due to back-to-school demand for Furniture, Technology, and Office Supplies. November and December sales rise as customers purchase Technology products, particularly phones, as Christmas gifts.
+1. Sales peak in March, September, and November. March sales are driven by tax season purchases of Office Supplies and Technology. September sales increase due to back-to-school demand for Furniture, Technology, and Office Supplies. November and December sales rise as customers purchase Technology products, particularly phones, as Christmas gifts.
 
 2. The highest sales and profits are in California, New York, Pennsylvania, Texas, and Washington. 
 
-3.The lowest sales are in South Dakota, District of Columbia, Kansas, Maryland, and Nevada. 
+3. The lowest sales are in South Dakota, District of Columbia, Kansas, Maryland, and Nevada. 
 
-4.The lowest profits are in North Carolina, Arkansas, Kansas, Oregon, and Nevada.
+4. The lowest profits are in North Carolina, Arkansas, Kansas, Oregon, and Nevada.
 
-5.Their is zero sales for the states Montana, North Dakota, Idaho, and Wyoming.
+5. Their is zero sales for the states Montana, North Dakota, Idaho, and Wyoming.
 
-6.Technology has the highest sales (836K) and profits (145K), followed by Furniture (742K sales, 18K profits) and Office Supplies (719K sales, 122K profits). The South region has the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment has the highest sales (1.1M), followed by Corporate (706K) and Home Office (430K).
+6. Technology has the highest sales (836K) and profits (145K), followed by Furniture (742K sales, 18K profits) and Office Supplies (719K sales, 122K profits). The South region has the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment has the highest sales (1.1M), followed by Corporate (706K) and Home Office (430K).
 
 # **Recommendations**
 
-1.Increase marketing efforts for Office Supplies and Technology products during March to capitalize on the tax season.
+1. Increase marketing efforts for Office Supplies and Technology products during March to capitalize on the tax season.
 
-2.Focus on Furniture, Technology and Office Supplies during September to target back-to-school/college sales.
+2. Focus on Furniture, Technology and Office Supplies during September to target back-to-school/college sales.
 
-3.Promote Technology products, especially phones, as Christmas gifts during November and December.
+3. Promote Technology products, especially phones, as Christmas gifts during November and December.
 
-4.Focus on increasing sales and profits in states with low performance such as South Dakota, District of Columbia, Kansas, Maryland, Nevada, North Carolina, Arkansas, Oregon.
+4. Focus on increasing sales and profits in states with low performance such as South Dakota, District of Columbia, Kansas, Maryland, Nevada, North Carolina, Arkansas, Oregon.
 
-5.Increase efforts to improve profits in the South region and the Furniture category.
+5. Increase efforts to improve profits in the South region and the Furniture category.
 
-6.Conduct market research to understand the needs and preferences of customers in states, Montana, North Dakota, Idaho, and Wyoming. Develop a targeted marketing campaign to raise awareness of the brand and products.
+6. Conduct market research to understand the needs and preferences of customers in states, Montana, North Dakota, Idaho, and Wyoming. Develop a targeted marketing campaign to raise awareness of the brand and products.
 
-7.Continuously monitor and analyse sales and profit trends by product category and segment. Identify opportunities for cross-selling, upselling, and product diversification to maximize sales and profitability, particularly in the Technology, Office supplies, and Furniture categories.
+7. Continuously monitor and analyse sales and profit trends by product category and segment. Identify opportunities for cross-selling, upselling, and product diversification to maximize sales and profitability, particularly in the Technology, Office supplies, and Furniture categories.
 
-8.Explore ways to enhance the customer experience and strengthen customer loyalty across all segments, with a particular focus on the Consumer segment, which has the highest sales. Implement personalized marketing initiatives, loyalty programs, and customer retention strategies to drive repeat business and increase customer lifetime value.
+8. Explore ways to enhance the customer experience and strengthen customer loyalty across all segments, with a particular focus on the Consumer segment, which has the highest sales. Implement personalized marketing initiatives, loyalty programs, and customer retention strategies to drive repeat business and increase customer lifetime value.
