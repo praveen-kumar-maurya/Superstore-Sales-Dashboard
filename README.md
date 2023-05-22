@@ -19,12 +19,12 @@ Business objective for the superstore sales dashboard is to increase sales and p
 
 DAX Expressions used for the measures created in Measures table are:- 
 
-Total sales = CALCULATE(SUM(factSales[Sales]))
-YTD Sales = TOTALYTD([Total sales],'dimDate'[Date])
-LY YTD Sales = COALESCE(CALCULATE([YTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
-YTD sales Growth % = CALCULATE(DIVIDE(([YTD Sales]-[LY YTD Sales]),[LY YTD Sales],0))
-MTD Sales = TOTALMTD([Total sales],'dimDate'[Date])
-LY MTD Sales = COALESCE(CALCULATE([MTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
+1. Total sales = CALCULATE(SUM(factSales[Sales]))
+2. YTD Sales = TOTALYTD([Total sales],'dimDate'[Date])
+3. LY YTD Sales = COALESCE(CALCULATE([YTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
+4. YTD sales Growth % = CALCULATE(DIVIDE(([YTD Sales]-[LY YTD Sales]),[LY YTD Sales],0))
+5. MTD Sales = TOTALMTD([Total sales],'dimDate'[Date])
+6. LY MTD Sales = COALESCE(CALCULATE([MTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
 
 YTD sales means Year till date sales
 LY YTD Sales means Last Year till date sales
@@ -34,17 +34,17 @@ LY MTD Sales Last Month till date sales
 
 DAX Expressions used for creating columns in Date table are:- 
 
-dimDate = CALENDAR(MIN(factSales[Order Date]),MAX(factSales[Order Date]))
-Fiscal year = YEAR('dimDate'[Date])
-FY = "FY " & RIGHT('dimDate'[Fiscal year],2) & "-" & RIGHT('dimDate'[Fiscal year]+1,2)
-Month year = FORMAT('dimDate'[Date],"MMM-YY")
-Start of year = STARTOFYEAR('dimDate'[Date])
-Qtr no = QUOTIENT(DATEDIFF('dimDate'[Start of year],'dimDate'[Date],MONTH),3)+1
-Qtr = "Q" & 'dimDate'[Qtr no]
-Month year sort = 
-var my = DATEDIFF(dimDate[Start of year],dimDate[Date],MONTH)+1
-return
-if (my<10,dimDate[Fiscal year] & "0"& my,dimDate[Fiscal year] & my)
+1. dimDate = CALENDAR(MIN(factSales[Order Date]),MAX(factSales[Order Date]))
+2. Fiscal year = YEAR('dimDate'[Date])
+3. FY = "FY " & RIGHT('dimDate'[Fiscal year],2) & "-" & RIGHT('dimDate'[Fiscal year]+1,2)
+4. Month year = FORMAT('dimDate'[Date],"MMM-YY")
+5. Start of year = STARTOFYEAR('dimDate'[Date])
+6. Qtr no = QUOTIENT(DATEDIFF('dimDate'[Start of year],'dimDate'[Date],MONTH),3)+1
+7. Qtr = "Q" & 'dimDate'[Qtr no]
+8. Month year sort = 
+   var my = DATEDIFF(dimDate[Start of year],dimDate[Date],MONTH)+1
+   return
+   if (my<10,dimDate[Fiscal year] & "0"& my,dimDate[Fiscal year] & my)
 
 
 
