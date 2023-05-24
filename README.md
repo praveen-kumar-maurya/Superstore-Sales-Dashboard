@@ -1,13 +1,13 @@
 # Superstore-Sales-Dashboard
 
-# **Dataset Link- -**
+# **Dataset Link**
 https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 # **Problem Statement**
 
 **The superstore sales dashboard analysis aims to provide data-driven insights into sales and profit trends to maximize sales and profitability.**
 
-# **Project summary- -**
+# **Project summary**
 
 The Superstore sales analysis utilized a dataset sourced from Kaggle. The data was initially denormalized and underwent normalization into three tables: dimCustomer, dimProducts, and factSales. Data cleaning was performed to remove irrelevant columns and correct errors in the date format for some dates in date column. A new dimDate table was created which contained all dates and then additional date-related columns were generated. A measures table was also created to consolidate all measures. Data modeling was performed to establish one-to-many relationships between the factSales table and the dimension tables, resulting in a star schema. The resulting dashboard featured various visualizations including line charts, bar charts, maps, KPI cards, ribbon charts, tables, tool tip, slicers and filters. The superstore sales dashboard analysis project aimed to provide insights into sales and profit trends across product categories, segments, and regions. The analysis revealed peak sales in March, September, and November, driven by tax season, back-to-school demand, and holiday shopping respectively. Technology had the highest sales and profits, followed by Furniture and Office Supplies. The South region had the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment had the highest sales, followed by Corporate and Home Office. Recommendations were made to maximize sales and profitability through targeted marketing initiatives, product diversification, and customer retention strategies.
 
