@@ -67,7 +67,9 @@ DAX Expressions used for creating columns in Date table are:-
    return
    if (my<10,dimDate[Fiscal year] & "0"& my,dimDate[Fiscal year] & my)
 
+# **Dashboard**
 
+![Dashboard_image](https://github.com/praveen-kumar-maurya/Superstore-Sales-Dashboard/assets/88583491/c6b2be89-b7c6-43a4-8f57-e6d586c0803d)
 
 # **Insights**
 
