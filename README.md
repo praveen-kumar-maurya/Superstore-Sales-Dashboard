@@ -77,15 +77,19 @@ Following are the insights obtained from the Superstore sales dashboard analysis
 
 1. Sales peak in March, September, and November. March sales are driven by tax season purchases of Office Supplies and Technology. September sales increase due to back-to-school demand for Furniture, Technology, and Office Supplies. November and December sales rise as customers purchase Technology products, particularly phones, as Christmas gifts.
 
-2. The highest sales and profits are in California, New York, Pennsylvania, Texas, and Washington. 
+2. At 1,18,448, Nov-17 had the highest Total sales and was 2,520.59% higher than Feb-14, which had the lowest Total sales at 4,520.
 
-3. The lowest sales are in South Dakota, District of Columbia, Kansas, Maryland, and Nevada. 
+3. Nov-17 accounted for 5.16% of Total sales.
 
-4. The lowest profits are in North Carolina, Arkansas, Kansas, Oregon, and Nevada.
+4. The highest sales and profits are in California, New York, Pennsylvania, Texas, and Washington. 
 
-5. Their is zero sales for the states Montana, North Dakota, Idaho, and Wyoming.
+5. The lowest sales are in South Dakota, District of Columbia, Kansas, Maryland, and Nevada. 
 
-6. Technology has the highest sales (836K) and profits (145K), followed by Furniture (742K sales, 18K profits) and Office Supplies (719K sales, 122K profits). The South region has the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment has the highest sales (1.1M), followed by Corporate (706K) and Home Office (430K).
+6. The lowest profits are in North Carolina, Arkansas, Kansas, Oregon, and Nevada.
+
+7. Their is zero sales for the states Montana, North Dakota, Idaho, and Wyoming.
+
+8. Technology has the highest sales (836K) and profits (145K), followed by Furniture (742K sales, 18K profits) and Office Supplies (719K sales, 122K profits). The South region has the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment has the highest sales (1.1M), followed by Corporate (706K) and Home Office (430K).
 
 # **Recommendations**
 
