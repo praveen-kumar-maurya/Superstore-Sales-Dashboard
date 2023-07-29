@@ -47,10 +47,10 @@ DAX Expressions used for the measures created in Measures table are:-
 5. MTD Sales = TOTALMTD([Total sales],'dimDate'[Date])
 6. LY MTD Sales = COALESCE(CALCULATE([MTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
 
-YTD sales means Year till date sales
-LY YTD Sales means Last Year till date sales
-MTD Sales Month till date sales
-LY MTD Sales Last Month till date sales
+YTD sales means Year-to-date sales
+LY YTD Sales means Last Year-to-date sales
+MTD Sales Month-to-date sales
+LY MTD Sales Last Month-to-date sales
 
 
 DAX Expressions used for creating columns in Date table are:- 
