@@ -91,6 +91,8 @@ Following are the insights obtained from the Superstore sales dashboard analysis
 7. Their is zero sales for the states Montana, North Dakota, Idaho, and Wyoming.
 
 8. Technology has the highest sales (836K) and profits (145K), followed by Furniture (742K sales, 18K profits) and Office Supplies (719K sales, 122K profits). The South region has the lowest overall profit, with North Carolina being the worst-performing state. The Consumer segment has the highest sales (1.1M), followed by Corporate (706K) and Home Office (430K).
+   
+9. Identified that profit by technology is 19% higher than office supplies followed by 688% higher than furniture.
 
 # **Recommendations**
 
