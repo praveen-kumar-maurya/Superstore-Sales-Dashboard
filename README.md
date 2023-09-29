@@ -5,7 +5,7 @@ https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
 
 # **Dataset Information**
 Row ID => Unique ID for each row,
-Order ID => Unique Order ID for each Customer,
+Order ID => Order ID for each Order,
 Order Date => Order Date of the product,
 Ship Mode => Shipping Mode specified by the Customer,
 Customer ID => Unique ID to identify each Customer,
