@@ -53,13 +53,12 @@ YTD sales mean Year-to-date sales, LY YTD Sales mean Last Year-to-date sales, MT
 DAX Expressions used for creating columns in Date table are:- 
 
 1. dimDate = CALENDAR(MIN(factSales[Order Date]),MAX(factSales[Order Date]))
-2. Fiscal year = YEAR('dimDate'[Date])
-3. FY = "FY " & RIGHT('dimDate'[Fiscal year],2) & "-" & RIGHT('dimDate'[Fiscal year]+1,2)
-4. Month year = FORMAT('dimDate'[Date],"MMM-YY")
-5. Start of year = STARTOFYEAR('dimDate'[Date])
-6. Qtr no = QUOTIENT(DATEDIFF('dimDate'[Start of year],'dimDate'[Date],MONTH),3)+1
-7. Qtr = "Q" & 'dimDate'[Qtr no]
-8. Month year sort = 
+2. Year = YEAR('dimDate'[Date])
+3. Month year = FORMAT('dimDate'[Date],"MMM-YY")
+4. Start of year = STARTOFYEAR('dimDate'[Date])
+5. Qtr no = QUOTIENT(DATEDIFF('dimDate'[Start of year],'dimDate'[Date],MONTH),3)+1
+6. Qtr = "Q" & 'dimDate'[Qtr no]
+7. Month year sort = 
    var my = DATEDIFF(dimDate[Start of year],dimDate[Date],MONTH)+1
    return
    if (my<10,dimDate[Fiscal year] & "0"& my,dimDate[Fiscal year] & my)
