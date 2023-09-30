@@ -34,7 +34,7 @@ The Superstore sales analysis utilized a dataset sourced from Kaggle. The data w
 
 # **Business Objective**
 
-Business objective for the superstore sales dashboard is to increase sales and profitability by leveraging data-driven insights to make informed decisions. The dashboard provides a comprehensive view of sales and profit trends across product categories, segments, and regions. This information is used to identify opportunities for growth and improvement, such as cross-selling, upselling, and product diversification. By utilizing the insights provided by the dashboard, the superstore aims to achieve sustainable growth and profitability.
+Business objective for the superstore sales dashboard is to increase sales and profitability by leveraging data-driven insights to make informed decisions. The dashboard provides a comprehensive view of sales and profit trends across product categories, segments, and regions. By utilizing the insights provided by the dashboard, the superstore aims to achieve sustainable growth and profitability.
 
 # **DAX Expressions used **
 
