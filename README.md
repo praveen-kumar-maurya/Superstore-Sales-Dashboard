@@ -40,10 +40,10 @@ Business objective for the superstore sales dashboard is to increase sales and p
 
 DAX Expressions used for the measures created in Measures table are:- 
 
-1. Total sales = CALCULATE(SUM(factSales[Sales]))
+1. Total sales = SUM(factSales[Sales])
 2. YTD Sales = TOTALYTD([Total sales],'dimDate'[Date])
 3. LY YTD Sales = COALESCE(CALCULATE([YTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
-4. YTD sales Growth % = CALCULATE(DIVIDE(([YTD Sales]-[LY YTD Sales]),[LY YTD Sales],0))
+4. YTD sales Growth % = DIVIDE(([YTD Sales]-[LY YTD Sales]),[LY YTD Sales],0)
 5. MTD Sales = TOTALMTD([Total sales],'dimDate'[Date])
 6. LY MTD Sales = COALESCE(CALCULATE([MTD Sales],SAMEPERIODLASTYEAR('dimDate'[Date])),0)
 
